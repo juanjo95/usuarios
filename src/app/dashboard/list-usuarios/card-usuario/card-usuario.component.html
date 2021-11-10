@@ -1,0 +1,9 @@
+<div class="card h-100">
+  <img [src]="imgUrl" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title text-center">{{nombre}}</h5>
+    <p class="card-text text-center">{{correo}}</p>
+    <p class="card-text text-center">{{genero}} - {{estado}}</p>
+    <button class="btn btn-block btn-xl w-100" routerLink="usuario/{{id}}">VER</button>
+  </div>
+</div>
